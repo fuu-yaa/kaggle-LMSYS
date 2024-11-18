@@ -41,4 +41,4 @@
 - 言語: Python 3.8
 - 主要ライブラリ: PyTorch, Transformers, Scikit-learn, Numpy, Pandas
 - モデル: [Gemma2, Llama3, Llama3.1,(LightGBM)]
-
+- 環境: Google Colab, Kaggle Notebooks

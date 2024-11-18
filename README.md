@@ -12,15 +12,15 @@
 ## データセット
 - **ソース**: [Chatbot Arena プラットフォーム](https://lmarena.ai/)
 - **形式**:  
-  ユーザーがランダムな2つのLLMの回答のどちらかを選好することで相対的なモデルの評価を下す。（引き分けも含む）  
-  集積した過去データ（ユーザーのprompt、モデルの回答×2、ユーザーの選考結果）を利用。
+  ユーザーがランダムな2つのLLMの回答のどちらかを選好することで相対的なモデルの評価を下す（引き分けも含む）  
+  集積した過去データ（ユーザーのprompt、モデルの回答×2、ユーザーの選考結果）を利用
 ![image](https://github.com/user-attachments/assets/337d1d20-c483-4fdd-b939-d28f19e320c4)
 [引用元](https://www.kaggle.com/code/abaojiang/lmsys-detailed-eda)
 
 - **サイズ**: 訓練データ(57477, 9) / テストデータ(3, 4)  
 ※未公開テストデータは明記なし。
 ## 評価指標
-- [対数損失関数](https://ja.wikipedia.org/wiki/%E4%BA%A4%E5%B7%AE%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AD%E3%83%94%E3%83%BC)を利用。
+- [対数損失関数](https://ja.wikipedia.org/wiki/%E4%BA%A4%E5%B7%AE%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AD%E3%83%94%E3%83%BC)を利用
   
   
 ## チャレンジポイント
